@@ -10,5 +10,5 @@ cd Docker-Practice
 # Login For Private Docker Repository
 docker login
 docker pull solari/docker-practice
-docker run -p 80:80 -v /home/Docker-Practice/Project:/var/www/html
+docker run -p 80:80 -v /home/Docker-Practice/Project:/var/www/html solari/docker-practice
 </pre>
